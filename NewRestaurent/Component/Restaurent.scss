@@ -1,0 +1,242 @@
+.landing{
+    //Background Image fixed
+    background-image: url(pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-position: inherit;
+    //Background image Height adjusted
+    height: 32vh;
+    font-size: 25px;
+    //text position aligned center
+    h1{
+        text-align: center;
+        color: white;
+    }
+    //text position aligned center
+    .line{
+        color: rgb(204, 189, 189);
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    } 
+    //button height width and position align
+    .button{
+        p{
+            text-align: center;
+            margin-top: 10px;
+            button{
+                background-color: blue;
+                color: white;
+                width: 200px;
+                height: 45px;
+            }
+        }
+        //button touch font size change
+        p  :hover{
+            color: rgb(157, 230, 12);
+            font-size: 30px;
+        }
+    }
+    
+}
+
+
+.path1{
+    //Background Image fixed
+    background-image: url(pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-position: center;
+    //Background image Height adjusted
+    height: 68vh;
+    h1{text-align: center;
+        color:white;
+    }
+    // background-image: height adjusted;
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        margin-left: 75px;
+        margin-right: 75px;
+        font-size: 23px;
+        height: 380px;
+        //back ground image fix and corner position adjusted
+        background-image: url(blank.jpg);
+        background-size:cover;
+        background-position:center;
+        color: rgb(16, 101, 16);
+        border:  10px;
+        border-radius: 10px;
+       
+        
+        //table width position adjusted
+        table{
+            width: 480px;
+         //table inside details position adjusted
+            tr{
+                display: flex;
+                //table data split two rows
+                    td:nth-child(1){
+                        flex: 1;
+                        justify-self: left;
+                    }
+                    td:nth-child(2){
+                        flex: 0.2;
+                        justify-self: right;
+                    }  
+                    }        
+        } 
+         
+    }
+    //button position width height adjusted
+    .next{
+        p{
+            text-align: center;
+            margin-top: 10px;
+            button{
+                background-color: blue;
+                color: white;
+                width: 200px;
+                height: 45px;
+            }
+        }
+         //button touch font size change
+        p  :hover{
+            color: rgb(157, 230, 12);
+            font-size: 25px;
+        }
+    }
+   
+}
+
+
+
+.path2{
+    //Background Image fixed
+    background-image: url(pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-position: center;
+    //Background image Height adjusted
+    height: 68vh;
+    h1{text-align: center;
+        color:white;
+    }
+    // background-image: height adjusted;
+    .main{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        font-size: 23px;
+        height: 380px;
+        //back ground image fix and corner position adjusted
+        background-image: url(blank.jpg);
+        background-size:cover;
+        background-position:center;
+        color: rgb(16, 101, 16);
+        border:  10px;
+        border-radius: 10px;  
+         //table width position adjusted
+        table{
+            width: 480px;
+            //table inside details position adjusted
+            tr{
+                display: flex;
+               //table data split two rows
+                    td:nth-child(1){
+                        flex: 1;
+                        justify-self: left;
+                    }
+                    td:nth-child(2){
+                        flex: 0.2;
+                        justify-self: right;
+                    }  
+                    }        
+        } 
+         
+    }
+     //button position width height adjusted
+    .next{
+        p{
+            text-align: center;
+            margin-top: 10px;
+            button{
+                background-color: blue;
+                color: white;
+                width: 200px;
+                height: 45px;
+                
+            }
+        }
+         //button touch font size change
+        p  :hover{
+            color: rgb(157, 230, 12);
+            font-size: 25px;
+        }
+    }
+   
+}
+
+
+.path3{
+    //Background Image fixed
+    background-image: url(pexels-adrien-olichon-2387793.jpg);
+    background-size:cover;
+    background-position: center;
+    //Background image Height adjusted
+    height: 68vh;
+    h1{text-align: center;
+        color:white;
+    }
+    // background-image: height adjusted;
+    .main{  
+        display: flex;
+        margin-left: 70px;
+        margin-right: 71px;
+        justify-content: center;
+        font-size: 23px;
+        height: 380px;
+        
+        //back ground image fix and corner position adjusted
+        background-image: url(blank.jpg);
+        background-size:cover;
+        background-position:center;
+        color: rgb(16, 101, 16);
+        border:  10px;
+        border-radius: 10px;
+         //table width position adjusted
+        table{
+            width: 480px;
+            
+            //table inside details position adjusted
+            tr{
+                display: flex;
+                justify-content:center; 
+                    }        
+        } 
+         
+    }
+     //button position width height adjusted
+    .next{
+        p{
+            text-align: center;
+            margin-top: 10px;
+            
+            button{
+                background-color: blue;
+                color: white;
+                width: 200px;
+                height: 45px;
+                
+            }
+       
+        }
+         //button touch font size change
+         p  :hover{
+            color: rgb(157, 230, 12);
+            font-size: 25px;
+        }
+        
+    }
+   
+}
